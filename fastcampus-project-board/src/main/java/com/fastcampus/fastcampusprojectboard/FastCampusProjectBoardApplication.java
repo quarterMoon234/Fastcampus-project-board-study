@@ -1,13 +1,12 @@
 package com.fastcampus.fastcampusprojectboard;
 
+import jdk.dynalink.beans.StaticClass;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class FastCampusProjectBoardApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(FastCampusProjectBoardApplication.class, args);
+    public static void main(String[] args) {SpringApplication.run(FastCampusProjectBoardApplication.class, args);
     }
-
 }
